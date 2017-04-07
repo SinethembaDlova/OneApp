@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OneApp</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+			  <li><a href="home.html">Home</a></li>
+			  </li>
+			  <li><a href="#">Contact</a></li>
+			  <li><a href="#">About</a></li>
+			</ul>
+		</nav>
+		<div id="add">
+			<h4>Create Account</h4>
+			<form action="partners/add" method="POST">
+			    Surname: <input type="text" name="surname"> <br />
+			    <br />	
+				Name: <input type="text" name="name">
+			    <br />
+				<br />
+				Cell Number: <input type="number" name="phone"> <br />
+				<br />
+				ID Number: <input type="number" name="licence"> <br />
+				<br />
+				Email : <input type="email" name="email">
+				<br />
+				<input type="checkbox" name="userType" value="Student"> Student
+		      	<br />
+		      	<input type="checkbox" name="userType" value="University"> University
+		      	<br />
+
+				<input type="submit">
+			</form>
+		</div>
+
+	</body>
+</html>

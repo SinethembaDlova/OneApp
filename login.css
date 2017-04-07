@@ -1,0 +1,14 @@
+body{
+  background:#CCCCCC;
+  background-image: url('blurred.jpg');
+}
+
+media (min-width: 580px)
+.ca-pub-style-A .ca-page #ca-page-wrap-inner.ca-page-login {
+    width: 580px;
+    margin: 0 auto;
+}
+.ca-pub-style-A .ca-page #ca-page-wrap-inner.ca-page-login {
+    max-width: 580px;
+    margin: 0 auto 0 auto;
+}

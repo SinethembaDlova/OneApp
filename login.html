@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OneApp</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+			  <li><a href="home.html">Home</a></li>
+			  </li>
+			  <li><a href="#">Contact</a></li>
+			  <li><a href="#">About</a></li>
+			</ul>
+		</nav>
+		<div id="ca-page-wrap-inner" class="ca-page-login ca-page-apply-login">
+		    <div id="ca-page-content">
+		        <section class="ca-login-wrap">
+					<header class="ca-login-header">
+		                    <h1>Sign In to My Application</h1>
+		                    <p>Don't have an account? <a aria-describedby="lblCreateAccount" aria-label="Go to Account Creation page" class="" href="createAccount.html">Create an Account</a></p>
+		             </header>
+		                <div class="ca-login-form-container">
+		                    <div id="loginError"></div>
+							<form action="/Login" method="post"><input name="__RequestVerificationToken" type="hidden" value="ylwkJfNsifQDe1bgSI-P6Fm8mKW8SGSCLVc8GIZOo108JzWmsu377qU2gqOX1tVUXFDaFZ3-fbTGbozoAxOlANaEF8o1">                        <label for="ApplicantEmailAddress">Email</label>
+							<input data-val="true" data-val-required="The Email Address field is required." id="ApplicantEmailAddress" name="UserName" type="text" value=""><span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>                        <label for="ApplicantPassword">Password</label>
+							<input data-val="true" data-val-required="The Password field is required." id="ApplicantPassword" name="Password" type="password">
+							<br /><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>                        <span class="label-helper">
+							                            <a href="https://appsupport.commonapp.org/" target="_blank">Need Help?</a> | 
+							                            <a href="/forgot-password">Forgot password?</a>
+							                        </span>
+		                        <input type="submit" value="Sign In" class="pa clear loginButton" id="appLogin">
+						</form>                </div>
+
+		        </section>
+
+		    </div>
+		</div>
+	</body>
+</html>
